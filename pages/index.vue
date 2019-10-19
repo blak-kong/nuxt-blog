@@ -2,8 +2,9 @@
     <div class="panel panel-default">
       <template v-for="item of blogData">
          <div class="blog panel-body" :key="item.id">
-        <h4 class="blog-title">
-          <nuxt-link :to="{name: 'details-id', params: {id: item.id}}">{{item.title}}</nuxt-link>
+        <h4 class="blog-title" @click="$router.push({name: 'details-id', params: { id: item.id }})">
+          <!-- <nuxt-link :to="{name: 'details-id', params: {id: item.id}}">{{item.title}}</nuxt-link> -->
+          {{item.title}}
         </h4>
         <p class="blog-desc">{{item.desc_text}}</p>
         <div class="blog-author">

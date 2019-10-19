@@ -28,7 +28,7 @@ marked.setOptions({
 
 export default {
   async asyncData({params}) {
-    let data = await detail(params)
+    let data = await detail(params.id)
     let decode = atob(data.data.content);
     let markdowncontent = decodeURI(decode);
     let markedHtml = marked(markdowncontent)
