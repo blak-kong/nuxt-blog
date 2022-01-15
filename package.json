@@ -23,7 +23,7 @@
     "bootstrap-vue": "^2.0.0",
     "highlight.js": "^9.15.10",
     "koa": "^2.6.2",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
