@@ -24,7 +24,7 @@
     "highlight.js": "^9.15.10",
     "koa": "^2.6.2",
     "marked": "^0.7.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.27",
