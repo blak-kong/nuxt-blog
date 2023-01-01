@@ -24,7 +24,7 @@
     "highlight.js": "^9.15.10",
     "koa": "^2.6.2",
     "marked": "^0.7.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.10.1"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.27",
@@ -33,7 +33,7 @@
     "gh-pages": "^2.1.1",
     "jest": "^24.1.0",
     "less": "^3.10.3",
-    "less-loader": "^5.0.0",
+    "less-loader": "^11.1.0",
     "nodemon": "^1.18.9",
     "push-dir": "^0.4.1",
     "vue-jest": "^4.0.0-0"
